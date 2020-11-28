@@ -31,5 +31,16 @@ OK!!! Let's Jump into some visual Demo and some code.
    _Example: In MAC we can set as vi ~/.bash_profile and enter export APPLITOOLS_API_KEY=THE API KEY VALUE_
    2. After setting the API KEY then we need to install the Applitools eyes dependency. Here in this demo we are going to use **Cypress** and a node project so we need to install the dependency using `npm install @applitools/eyes-cypress` command. This command install all the dependencies needed for the **EYES** SDK.
    3. Now we need to run the command `npx eyes-setup`. This command will setup the required plugins and command needed for the **EYES** SDK.
+   4. Then we need to add the eyesOpen, eyesCheckWindow, etc., methods in our test to enable the visual testing in our project
+   
+### Demo - Setup a Cypress project and integrate with Applitools
+
+  1. Create an empty repository in Git and clone that repo in your local in the required directory and navigate into the project.
+  2. Now initialise the node project using `npm init` command and enter the project name and click enter and type Yes in the final step
+  3. Next install Cypress using `npm install cypress`. This will install all the dependencies and the folder structure for Cypress.
+  4. Now go to `/cypress/integration/examples/` which is the test folder for Cypress and all the tests should be present under this folder and create a test file.       _For Example:`/cypress/integration/examples/SampleTest.spec.js`_
+  5. Now run the particular test using `npx cypress run --spec cypress/integration/examples/SampleTest.spec.js` or add `cypress run --spec                 cypress/integration/examples/SampleTest.spec.js` line to test value under scripts in the `package.json` file
+  6. To run in headless mode use `cypress run --headed --spec cypress/integration/examples/SampleTest.spec.js`
+  ### Cypress Demo
    
    
