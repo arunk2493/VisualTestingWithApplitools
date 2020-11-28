@@ -50,7 +50,55 @@ YAY!!!! Now we have created a simple test with cypress. Next we will see how can
 
 ### Angular App
 
-  ![AngularApp]()
+  ![AngularApp](demo.gif)
   
+  _Here I haven't deployed the app so it will run in localhost._
+  
+### Example Scenario
+
+### Code Setup
+
+  ![Code](applitools-demo.gif)  
+  
+  Let's consider a scenario, Initially I have created the details and the heros name element has rounded border in the left side and assume it has been deployed in  production. Now we will run the test in applitools and create a base line image which will be used for the visual test.
    
-   
+  Now due to some UI refactoring the rounded border has been changed i.e, We have changed the border radius in CSS file. Now I run the test against the baseline image and see whether any changes in the UI affected the application.
+  
+  Yes!! it has affected the UI and we are failing the test.
+  
+  Next we have added some title change and also altered the border radius and again running the test against the BaseLine image. Now the UI appears to be convincing and we are accepting the test case.
+  
+   ![BaseLine Test](applitools-demo-test.gif) 
+  
+  Finally We are running the test cases one more time and checking any pixel changes has been happened by selecting the Preview match level as **Strict** and the tests seems to Passed.
+  
+   ![Final Test](applitools-demo-test-final.gif) 
+  
+  Now we can also run our test across multiple browsers and devices and different view ports. To do this we need to create a `applitools.config.js` file in our project root folder and add the browser configurations as show below and run the tests. We can also name the tests under a badge as shown below.
+  
+  ![Grid Test with Multiple Browsers_Devices_ViewPorts](applitools-grid.gif) 
+  
+  If we have licensed version we can able to compare and merge the accepted changes to the code base and integrate with CI and run the tests effectively. And also of any tests are failed we can able to mark as a bug too.
+  
+  Since have a free account only we can able to see the changes and Accept / Reject the changes.
+  
+### Pros
+  
+  - Effective Dashboard
+  - Easy to integrate with existing projects
+  - Fast and reliable execution
+
+### Cons
+
+  - Pricing for most of the features
+  - For free users only 100 builds/month
+  - Only 1 concurrent users so the test execution may get slower during the parallel execution.
+  
+Finally!! This is how we can perform visual testing with Applitools and see the changes happening in the UI.
+
+References: [Applitools](https://applitools.com/)
+Basic Code: [Demo Code - Basic](https://github.com/arunk2493/CypressApplitoolsDemo)
+
+The above content is purely based on my learnings, if anything is missed please correct me always open to feedbacks!!
+
+### Learn..Educate..and Shine!!
