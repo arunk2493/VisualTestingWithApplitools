@@ -45,5 +45,12 @@ OK!!! Let's Jump into some visual Demo and some code.
 ### Cypress Demo
 
   ![Demo](cypress-test.gif)
+  
+YAY!!!! Now we have created a simple test with cypress. Next we will see how can we integrate Applitools to our Cypress Project. For running the Applitools I have taken the demo tutorial from the Angular site.
+
+### Angular App
+
+  ![AngularApp]()
+  
    
    
