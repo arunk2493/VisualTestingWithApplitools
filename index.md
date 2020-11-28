@@ -1,37 +1,20 @@
-## Welcome to GitHub Pages
+# Visual Testing with Applitools
 
-You can use the [editor on GitHub](https://github.com/arunk2493/VisualTestingWithApplitools/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+In my [previous blog](https://arunk2493.github.io/VisualTesting/) I have shared my learning of Visual Testing and its techniques. Now we can see how **_Applitools_** is used to do the Visual Testing.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Applitools - An Intro
 
-### Markdown
+- Applitools is one the powerful visual testing tools in the market in recent days.
+- Applitools has its own SDKs to analyze entire page, elements or iframes
+- It can be easily integrated with the existing projects
+- Applitools comes with Pricing and Free version and the features also depends upon the pricing
+- There are 3 main components of Applitools;
+  1. Applitools Eyes
+  2. UltraFast Grid
+  3. Seamless Integration
+ 
+## Applitools Eyes: Captures and analyzes the entire screen of the application.
+## UltraFast Grid: It provides a powerful cross browser testing. It provides the feature to run massive parallel tests across all browsers, devices and viewports
+## Seamless Integration: It can be easily integrated with the existing code and works with modern test frameworks, CI/CD and more.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/arunk2493/VisualTestingWithApplitools/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Applitools provides support to all the test frameworks and languages such as Selenium Java, Cypress, JavaScript,React and also Appium, Espresso,XCUI, etc,.
