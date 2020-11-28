@@ -42,7 +42,7 @@ OK!!! Let's Jump into some visual Demo and some code.
   5. Now run the particular test using `npx cypress run --spec cypress/integration/examples/SampleTest.spec.js` or add `cypress run --spec                 cypress/integration/examples/SampleTest.spec.js` line to test value under scripts in the `package.json` file
   6. To run in headless mode use `cypress run --headed --spec cypress/integration/examples/SampleTest.spec.js`
   
-  ### Cypress Demo
+### Cypress Demo
   
   ![Demo](cypress-test.gif)
    
