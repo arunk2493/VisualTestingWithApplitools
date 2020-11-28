@@ -43,7 +43,7 @@ OK!!! Let's Jump into some visual Demo and some code.
   6. To run in headless mode use `cypress run --headed --spec cypress/integration/examples/SampleTest.spec.js`
   
 ### Cypress Demo
-  
+
   ![Demo](cypress-test.gif)
    
    
