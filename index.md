@@ -97,6 +97,7 @@ YAY!!!! Now we have created a simple test with cypress. Next we will see how can
 Finally!! This is how we can perform visual testing with Applitools and see the changes happening in the UI.
 
 References: [Applitools](https://applitools.com/)
+
 Basic Code: [Demo Code - Basic](https://github.com/arunk2493/CypressApplitoolsDemo)
 
 The above content is purely based on my learnings, if anything is missed please correct me always open to feedbacks!!
